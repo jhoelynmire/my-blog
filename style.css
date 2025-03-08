@@ -1,0 +1,98 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff0f5;
+    color: #333;
+    text-align: center;
+}
+header {
+    background: url('header-image.jpg') no-repeat center center/cover;
+    padding: 50px;
+    font-size: 2em;
+    color: #ffb6c1;
+}
+nav {
+    background: #ff9aad;
+    padding: 10px;
+    border-radius: 20px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+nav a:hover {
+    color: #FF3169;
+    text-shadow: 
+    0 0 20px #ff1e4fc0,
+    0 0 30px #ff1e4fc0,
+    0 0 40px #ff1e4fc0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 8px rgba(255, 182, 193, 0.3);
+}
+.tag-cloud {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.tag-cloud img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    transition: 0.3s;
+    border: 5px solid #ffccd5;
+}
+.tag-cloud img:hover {
+    transform: scale(1.05);
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.gallery img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    transition: 0.3s;
+    border: 5px solid #ffccd5;
+}
+.gallery img:hover {
+    transform: scale(1.05);
+}
+iframe {
+    width: 80%;
+    max-width: 600px;
+    height: 315px;
+    border-radius: 10px;
+    border: 3px solid #ffccd5;
+}
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: #ffccd5;
+    color: white;
+    border-radius: 20px;
+}
